@@ -6,41 +6,39 @@ Description
 
 The Weather App is a ReactJS-based web application that provides real-time weather updates for any location worldwide. It fetches data from a weather API and displays essential weather information such as temperature, humidity, wind speed, and weather conditions.
 
-Features
+Features :-
 
-Search weather by city name
+1.Search weather by city name
 
-Real-time weather updates
+2.Real-time weather updates
 
-Displays temperature, humidity, wind speed, and weather conditions
+3.Displays temperature, humidity, wind speed, and weather conditions
 
-User-friendly and responsive UI
+4.User-friendly and responsive UI
 
-Technologies Used
+###################################################################################################Tech Used#########################################################################################################
 
-ReactJS
+1.ReactJS
 
-HTML, CSS, JavaScript
+2.HTML, CSS, JavaScript
 
-Axios (for API requests)
+3.OpenWeatherMap API
 
-OpenWeatherMap API (or any weather API of choice)
+###################################################################################################Installation######################################################################################################
 
-Installation
+Prerequisites:-
 
-Prerequisites
+1.Ensure you have the following installed on your system:
 
-Ensure you have the following installed on your system:
+2. npm install vite@latest
+3. choose react.js
+4. choose JavaScript
 
-Node.js (Latest LTS version recommended)
+Steps to Run the Project:-
 
-npm or yarn (Package Manager)
+Clone the repository:-
 
-Steps to Run the Project
-
-Clone the repository:
-
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/Lohithduba/WeatherForcastApp
 
 Navigate to the project directory:
 
@@ -50,23 +48,13 @@ Install dependencies:
 
 npm install
 
-or
-
-yarn install
-
 Obtain an API key from OpenWeatherMap or another weather API provider.
 
 Create a .env file in the root directory and add the API key:
 
-REACT_APP_WEATHER_API_KEY=your_api_key_here
-
 Start the development server:
 
-npm start
-
-or
-
-yarn start
+npm run dev
 
 Open your browser and visit http://localhost:3000/ to see the Weather App in action.
 
