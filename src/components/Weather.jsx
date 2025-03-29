@@ -16,7 +16,7 @@ const Weather = () => {
   const [weatherData,setWeatherData]=useState(false);
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
 
-  const [currentCity, setCurrentCity] = useState("pune");
+  const [currentCity, setCurrentCity] = useState("Delhi");
 
   const [loading, setLoading] = useState(false);
   const allIcons={
